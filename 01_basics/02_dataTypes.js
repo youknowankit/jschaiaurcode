@@ -1,6 +1,6 @@
 /*
 Today's JS is not same as old js as now it has modern features like classes, modules, arrow functions etc.
-So, JS committee didn't want that old code stops working and new code also works. So to treat 
+So, JS committee didn't want old code to stop working and that new code should also work. So to treat 
 all code as newer version of code write "use strict"
 Original Documentation of JS: https://tc39.es/ecma262/#sec-intro
 */
