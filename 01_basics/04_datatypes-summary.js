@@ -101,3 +101,44 @@ So, basically non-primitive datatypes return datatypes as functions but for func
 is called Object Function.*/
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
+
+
+
+/*
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+CONCEPT OF STACK & HEAP MEMORY USED IN PRIMITIVE & NON-PRIMITIVE DATA TYPES
+
+In earlier days of programming you had to manage the memory and manually allocate and release 
+the memory. This happens in languages like C, C++ but in modern languages like JS the memory management &
+garbage collection is done automtically.
+
+Basically there are two types of memories:  
+1. Stack Memory : Used in all primitive datatypes
+    When you declare a stack memory for a variable then you get a copy of that variable.
+2. Memory Memory: Used with non- primitive datatypes
+    Here, you get reference to the original value and due to this whenever you make a change, it 
+    changes the original value.
+
+Examples:
+Stack:
+    let x=4;
+    let y=x;
+    y=6;
+
+    console.log(x); //4  No change to original value as you changed the copy of x not x itself
+    console.log(y); //6
+
+Heap:
+    let user = {
+        email: "user@gmail.com",
+        upi: "user@ybl"
+    }
+
+    let userTwo = userOne
+
+    userTwo.email = "ankit@gmail.com"
+
+    console.log(userOne.email); //ankit@gmail.com  Same value is copied as it is reference to original value
+    console.log(userTwo.email); //ankit@gmail.com   
+*/
