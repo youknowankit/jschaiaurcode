@@ -95,9 +95,9 @@ console.log(typeof anotherId);
 6. Object(native and doesnot implement[(call)]): object
 7. Object(native or host and does implement[(call)]): function
 8. Object(host and doesnot implement[(call)]): Implementaton defined except may  not be "undefined",
-"boolean", "number" or "string"/
+"boolean", "number" or "string".
 
 So, basically non-primitive datatypes return datatypes as functions but for function datatype return data type
-is called Object Function.
+is called Object Function.*/
 
 // https://262.ecma-international.org/5.1/#sec-11.4.3
