@@ -8,7 +8,7 @@ of January 1, 1970,UTC (the epoch).
 
 In short, Dates are calculated in milliseconds and stored in string.
 TC39 the team of JS working on JS features has motive to make Temporal as Global Object like Maths but as
-of now this is not so and we have to work the old way.
+of now this is not available so and we have to work the old way.
 
 DECLARING A DATE:
 let myDate = new Date();
